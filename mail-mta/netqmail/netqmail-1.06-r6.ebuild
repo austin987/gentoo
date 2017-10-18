@@ -46,7 +46,7 @@ RESTRICT="test"
 
 DEPEND="
 	!mail-mta/qmail
-	net-mail/queue-repair
+	>=net-mail/queue-repair-0.9.0-r1
 	ssl? (
 		!libressl? ( dev-libs/openssl:0 )
 		libressl? ( dev-libs/libressl )
